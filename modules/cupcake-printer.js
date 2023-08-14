@@ -11,4 +11,14 @@ const simplePrintCupcake = (cupcake) => {
     return `${cupcake.flavor}: ${priceFormatter.format(cupcake.price)}`;
 };
 
-export { prettyPrintCupcake, simplePrintCupcake };
+const myFunction = () => console.log("Hello, there")
+
+export default prettyPrintCupcake;
+export { prettyPrintCupcake, simplePrintCupcake, myFunction };
+
+// you can export things the way shown in line above, or via name exports
+// declaring export in front of function declaration (export const simplePrintCupcake etc)
+
+// const fruits = ["apple", "banana", "cherry"];
+// export default fruits;
+
